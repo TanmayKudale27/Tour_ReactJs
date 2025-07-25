@@ -1,0 +1,171 @@
+/* Section background and layout */
+.travel-hero {
+  position: relative;
+  color: #fff;
+  padding: 80px 0;
+  overflow: hidden;
+}
+
+.travel-hero .hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.travel-hero .hero-background video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.travel-hero .hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 15, 40, 0.6);
+  z-index: 2;
+}
+
+.travel-hero .container {
+  position: relative;
+  z-index: 3;
+}
+
+/* Hero text animation */
+.hero-text {
+  animation: fadeInUp 1s ease forwards;
+  opacity: 0;
+  transform: translateY(30px);
+  animation-delay: 0.3s;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 1.3;
+}
+
+.hero-subtitle {
+  font-size: 18px;
+  max-width: 90%;
+  margin-bottom: 30px;
+  color: #ddd;
+}
+
+.hero-buttons .btn {
+  padding: 12px 28px;
+  font-size: 16px;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.btn-outline {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.btn-outline:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Booking form */
+.booking-form-wrapper {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 30px;
+  border-radius: 12px;
+  animation: fadeInLeft 1s ease forwards;
+  opacity: 0;
+  transform: translateX(30px);
+  animation-delay: 0.6s;
+  backdrop-filter: blur(6px);
+}
+
+.booking-form {
+  color: #fff;
+}
+
+.booking-form .form-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.booking-form label {
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.booking-form .form-control,
+.booking-form .form-select {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.booking-form .form-control:focus,
+.booking-form .form-select:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5);
+}
+
+/* Submit button */
+.booking-form button[type="submit"] {
+  margin-top: 10px;
+  padding: 12px 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 32px;
+  }
+
+  .hero-subtitle {
+    font-size: 16px;
+  }
+
+  .booking-form-wrapper {
+    margin-top: 40px;
+  }
+}

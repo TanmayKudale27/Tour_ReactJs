@@ -1,0 +1,128 @@
+.footer {
+  background-color: #111;
+  color: #ccc;
+  padding: 60px 0 30px;
+  font-size: 15px;
+}
+
+.footer h4 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #fff;
+  position: relative;
+  font-weight: 600;
+}
+
+.footer a {
+  color: #ccc;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #0dcaf0;
+}
+
+.footer .sitename {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.footer .footer-newsletter {
+  background: #1a1a1a;
+  padding: 40px 0;
+  border-bottom: 1px solid #333;
+  animation: fadeInUp 1s ease;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.newsletter-form input[type="email"] {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  width: 70%;
+  outline: none;
+}
+
+.newsletter-form input[type="submit"] {
+  padding: 10px 20px;
+  border: none;
+  background-color: #0d6efd;
+  color: white;
+  font-weight: bold;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.newsletter-form input[type="submit"]:hover {
+  background-color: #0b5ed7;
+}
+
+.footer-top {
+  margin-top: 40px;
+  animation: fadeInUp 1s ease 0.4s both;
+}
+
+.footer-links ul {
+  padding: 0;
+  list-style: none;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links i {
+  margin-right: 5px;
+  color: #0dcaf0;
+}
+
+.social-links a {
+  font-size: 18px;
+  background: #222;
+  color: #fff;
+  margin-right: 10px;
+  border-radius: 50%;
+  padding: 8px 10px;
+  display: inline-block;
+  transition: background 0.3s;
+}
+
+.social-links a:hover {
+  background: #0dcaf0;
+  color: #000;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .newsletter-form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .newsletter-form input[type="email"],
+  .newsletter-form input[type="submit"] {
+    border-radius: 4px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+}
