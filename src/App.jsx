@@ -1,16 +1,28 @@
-import React from 'react'
-import Header from './components/Header'
-import Hero from "../src/pages/Hero";
-import Footer from "./components/Footer"
+import React from 'react';
+
+import Header from './components/Header';
+import Footer from './components/Footer';
+
+import Hero from './pages/Hero';
+import WhyUs from './pages/WhyUs';
+import FeaturedDestinations from './pages/FeaturedDestinations';
+import FeaturedTours from './pages/FeaturedTours';
+import Testimonials from './pages/TestimonialsHome';
+import CallToAction from './pages/CallToAction';
 
 function App() {
   return (
     <>
       <Header />
-      <Hero/>
-      <Footer/>
+      <Hero />
+      <WhyUs />
+      <FeaturedDestinations />
+      <FeaturedTours />
+      <Testimonials />
+      <CallToAction />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

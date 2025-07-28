@@ -24,12 +24,12 @@ const Header = () => {
 
         <nav id="navmenu" className="navmenu">
           <ul>
-            <li><a href="index.html" className="active">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="destinations.html">Destinations</a></li>
-            <li><a href="tours.html">Tours</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="blog.html">Blog</a></li>
+            <li><a href="home" >Home</a></li>
+            <li><a href="whyUs">About</a></li>
+            <li><a href="tours">Destinations</a></li>
+            <li><a href="testimonials">Tours</a></li>
+            <li><a href="home">Gallery</a></li>
+            <li><a href="home">Blog</a></li>
             <li className="dropdown">
               <a href="#"><span>More Pages</span> <i className="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>

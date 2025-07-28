@@ -1,0 +1,272 @@
+.call-to-action {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #fefefe 0%, #f7f9fc 100%);
+  color: #333;
+  font-family: "Poppins", sans-serif;
+}
+
+.call-to-action .hero-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.call-to-action .content-wrapper {
+  flex: 1 1 500px;
+}
+
+.promo-badge {
+  display: inline-block;
+  background: #ff7f50;
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  animation: fadeInDown 0.6s ease;
+}
+
+.call-to-action h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.call-to-action p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.main-actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-explore {
+  background-color: #0077ff;
+  color: white;
+}
+
+.btn-explore:hover {
+  background-color: #005fcc;
+}
+
+.btn-deals {
+  background-color: #ffc107;
+  color: #212529;
+}
+
+.btn-deals:hover {
+  background-color: #e0a800;
+}
+
+.quick-contact {
+  font-size: 0.95rem;
+  margin-top: 10px;
+}
+
+.quick-contact .contact-label {
+  margin-right: 8px;
+  font-weight: 500;
+}
+
+.contact-link {
+  color: #0077ff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}
+
+/* Visual element styles */
+.visual-element {
+  position: relative;
+  flex: 1 1 400px;
+  text-align: center;
+}
+
+.hero-image {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.image-overlay {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  display: flex;
+  gap: 1.5rem;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: 600;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 1.4rem;
+  color: #0077ff;
+  font-weight: bold;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Newsletter Section */
+.newsletter-section {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.newsletter-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+.newsletter-icon i {
+  font-size: 2rem;
+  color: #e91e63;
+  margin-bottom: 10px;
+}
+
+.newsletter-text h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.newsletter-text p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.email-input {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  flex: 1;
+  min-width: 250px;
+}
+
+.subscribe-btn {
+  background-color: #0077ff;
+  color: #fff;
+  border: none;
+  padding: 11px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.subscribe-btn:hover {
+  background-color: #005fcc;
+}
+
+.trust-indicators {
+  margin-top: 10px;
+  font-size: 0.85rem;
+  color: #888;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Benefits Section */
+.benefits-showcase {
+  margin-top: 80px;
+}
+
+.benefits-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.benefits-header h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.benefit-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.07);
+  transition: transform 0.3s ease;
+}
+
+.benefit-card:hover {
+  transform: translateY(-5px);
+}
+
+.benefit-icon-wrap {
+  font-size: 2.2rem;
+  color: #0077ff;
+  margin-bottom: 12px;
+}
+
+.benefit-content h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.benefit-content p {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+/* AOS custom fallback */
+[data-aos] {
+  opacity: 0;
+  transition-property: opacity, transform;
+}
+
+[data-aos].aos-animate {
+  opacity: 1;
+}
