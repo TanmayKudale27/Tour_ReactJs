@@ -24,11 +24,11 @@ const Header = () => {
 
         <nav id="navmenu" className="navmenu">
           <ul>
-            <li><a href="home" >Home</a></li>
-            <li><a href="whyUs">About</a></li>
-            <li><a href="tours">Destinations</a></li>
-            <li><a href="testimonials">Tours</a></li>
-            <li><a href="home">Gallery</a></li>
+            <li><a href="/" >Home</a></li>
+            <li><a href="why-us">About</a></li>
+            <li><a href="destinations">Destinations</a></li>
+            <li><a href="tours">Tours</a></li>
+            <li><a href="destinations">Gallery</a></li>
             <li><a href="home">Blog</a></li>
             <li className="dropdown">
               <a href="#"><span>More Pages</span> <i className="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -63,7 +63,7 @@ const Header = () => {
                 <li><a href="#">Dropdown 4</a></li>
               </ul>
             </li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="call-to-action">Contact</a></li>
           </ul>
           <i className="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
